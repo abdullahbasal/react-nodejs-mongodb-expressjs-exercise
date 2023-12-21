@@ -1,0 +1,9 @@
+.search-bar{
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+.search-bar::placeholder{
+    padding: 10px;
+    
+}

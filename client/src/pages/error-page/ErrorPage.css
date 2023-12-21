@@ -1,0 +1,29 @@
+.error-page-container{
+    display: flex;
+    align-items: center;
+    max-height: 100vh !important;
+    height: 100vh;
+}
+.w100{
+    width: 100% !important;
+}
+.error-page-container .page-content{
+    margin-top: 0px;
+}
+.error-page-container .section{
+    margin-top: 0px;
+}
+.error-page-container img{
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.return-home{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+}

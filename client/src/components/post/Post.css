@@ -1,0 +1,5 @@
+.post-card .card{
+    background-color: transparent;
+    border-radius: 10px;
+    background-color: var(--page_content_color);
+}

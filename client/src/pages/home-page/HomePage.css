@@ -1,0 +1,137 @@
+@media only screen and (max-width: 769px) {
+    .image-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-div img{
+      max-height: 300px !important;
+    }
+    .section-row{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .section-row .div{
+        width: 100%;
+    }
+    .section-row div{
+        height: 100%;
+    width: 100%;
+    }
+
+  }
+
+.home-page-container{
+    color:var(--font_color);
+    font-weight: 600;
+}
+
+
+.linear-text{
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: var(--text_backgroundOne);
+    background: var(--text_backgroundTwo);
+    background: var(--text_backgroundThree);
+    background: var(--text_backgroundFour);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.description-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    height: 450px;
+    padding: 30px 30px
+}
+.slogan{
+    color: white !important;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.page-content{
+    margin-top: 110px;
+    background-color: var(--page_content_color);
+    padding: 40px;
+    border-radius: 6px;
+}
+.mt-0{
+    margin-top: 0px !important;
+}
+.home-page-container .card {
+    background: transparent;
+    border: none;
+    color: inherit;
+}
+
+.home-page-container img {
+    background: transparent;
+    border: none;
+    border-radius: 30px;
+}
+
+.page-content:first .section{
+    margin-top: 0px;
+}
+.section{
+    margin-top: 40px;
+    padding: 30px;
+    background-color: var(--section_content_color);
+    border-radius: 6px;
+}
+.category-image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+}
+.game-app-row img{
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.footer{
+    margin: 50px 0px !important;
+    background-color: var(--page_content_color);
+    border-radius: 6px;
+}
+
+.footer-content{
+    background-color: var(--page_content_color);
+    padding: 40px;
+    border-radius: 6px;
+}
+.footer .section{
+    margin: 0px !important;
+}
+.footer .logo,.footer .certificate{
+    width: 130px;
+    height: 130px;
+}
+.footer .copyright{
+    padding-top: 20px;
+}
+.footer .vertical-bar{
+    margin: 0px 10px;
+}
+
+
+.nav-item{
+    text-align: center;
+}
+.join-us-container .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
