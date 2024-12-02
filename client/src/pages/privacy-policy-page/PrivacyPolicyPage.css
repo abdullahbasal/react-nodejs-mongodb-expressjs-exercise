@@ -1,0 +1,13 @@
+.privacy-policy-container .linear-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: var(--text_backgroundOne);
+  background: var(--text_backgroundTwo);
+  background: var(--text_backgroundThree);
+  background: var(--text_backgroundFour);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.privacy-policy-container p {
+  font-size: 1rem;
+}
